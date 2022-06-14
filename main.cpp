@@ -4,7 +4,7 @@
 
 using namespace std;
 
-int main(int argc, char * argv[], int op){
+int main(int argc, char * argv[], int op, string marca, string tipo, string modelo, string color, string serie){
     Autodistribuidora autodistribuidora;
     autodistribuidora.autos_registrados();
     do {
@@ -18,6 +18,8 @@ int main(int argc, char * argv[], int op){
         cout << "5. Agregar un Automovil tipo Camioneta." << endl;
         cout << "6. Buscar un Automovil especifico." << endl;
         cout << "7. Buscar un todos los Automoviles de esa Marca y Modelo existentes." << endl;
+        cout << "8. Buscar un Automovil especifico (Usuario)." << endl;
+        cout << "9. Buscar un todos los Automoviles de esa Marca y Modelo existentes (Usuario)." << endl;
         cout << "0. Salir del sistema" << endl << endl;
         cout << "Opcion: ";
         cin >> op;
@@ -52,6 +54,19 @@ int main(int argc, char * argv[], int op){
             case 7:
             autodistribuidora.buscar_Automoviles("Carro", "Fiat", "Movil");
             autodistribuidora.buscar_Automoviles("Camioneta", "JEEP", "Wrangler");
+            break;
+            case 8:
+            cout << "Desea buscar un Carro o una Camioneta? " << endl;
+            cin >> tipo;
+            cout << "Que marca es el vehiculo? " << endl;
+            cin  >> marca;
+            cout << "Introduzca modelo del vehiculo: " << endl;
+            cin >> modelo;
+            cout << "Color del vehiculo: " << endl;
+            cin >> color;
+            cout << "Es estandar o delujo el vehiculo? " << endl;
+            cin >> serie;
+            autodistribuidora.buscar_Automovil_Usuario(tipo, marca, modelo, color, serie);
             break;
         }
 
