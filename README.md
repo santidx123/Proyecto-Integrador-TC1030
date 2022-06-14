@@ -7,3 +7,13 @@ En este repositorio se adjuntaran los avances de este proyecto integrador hasta 
 El programa permite el registro, busqueda, e impresion de todo el contenido en el almacen, de acuerdo al tipo, marca, modelo, color, serie y precio del automovil.
 
 Y con un menu el cual cuenta con todas las opciones necesarias para la empresa. Asi como tambien ademas de que el usuario pueda manejar el menu, tambien estan incluidas algunas funciones ya por default para asi probar las funciones y agregar unos carros como ya regitrados en el almacen. 
+
+# Sugerencias para funciones del programa:
+
+-Funcion Buscar_Automovil_Usuario: 
+  Para tipo Carro: Modelo(Dodge), Marca(Attitude), Color(negro), Serie(delujo).
+  Para tipo Camioneta: Modelo(Dodge), Marca(Caravan), Color(negro), Serie(estandar).
+
+-Funcion Buscar_Automoviles_Usuario:
+  Para tipo Carro: Modelo(Fiat), Marca(Movil).
+  Para tipo Camioneta: Modelo(JEEP), Marca(Wrangler).
