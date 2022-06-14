@@ -1,8 +1,9 @@
 # Proyecto-Integrador-TC1030
 Nombre y Matricula: Santiago Reynaldo Aguilar Vega - A01709030
-En este repositorio se adjuntaran los avances de este proyecto integrador hasta el avance final. Que consiste en una empresa automotriz que tiene que registrar cuantos autos venden asi como cuando llega un nuevo lote de autos, el cual incluye su modelo, color, numero de puertas, serie y marca ya que hay distintas marcas que maneja la empresa, esto porque tienen un limite de espacio de autos asi en caso de estar llenos no poder comprar mas autos hasta que haya espacio en esta.
+
+En este repositorio se adjuntaran los avances de este proyecto integrador hasta el avance final. Que consiste en una empresa Automotriz la cual po medio del Sistema principal le dara acceso para registrar un nuevo o nuevos vehiculos cuando estos lleguen al alamace, ademas de buscar un vehiculo en especfico para conocer el precio, asi como buscar varios autos de una cierta marca, modelo y tipo, ya que en la empresa Automotriz se manejan Camionetas y Carrros, y por ultimo podra ver todo el contendio de automoviles que se encuentren registrados en almacen asi como tambien podra verlos de acuerdo al tipo (Carro o Camnioneta).
 
 # Funcionalidad
-El programa permite el registro (compra) y eliminacion (venta) de autos, de acuerdo a color, modelo, etc.
+El programa permite el registro, busqueda, e impresion de todo el contenido en el almacen, de acuerdo al tipo, marca, modelo, color, serie y precio del automovil.
 
-Y con un menu el cual cuenta con todas las opciones necesarias para la empresa.
+Y con un menu el cual cuenta con todas las opciones necesarias para la empresa. Asi como tambien ademas de que el usuario pueda manejar el menu, tambien estan incluidas algunas funciones ya por default para asi probar las funciones y agregar unos carros como ya regitrados en el almacen. 
