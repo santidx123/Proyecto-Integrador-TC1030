@@ -21,9 +21,12 @@ class Autodistribuidora {
         void muestra_vehiculos();
         void muestra_vehiculos(string tipo);
         void agrega_Carro(string marca, string modelo, string color, string serie, double precio);
+        void agrega_Carro();
         void agrega_Camioneta(string marca, string modelo, string color, string serie, double precio_venta);
         void buscar_Automovil(string tipo, string marca, string modelo, string color, string serie);
         void buscar_Automoviles(string tipo, string marca, string modelo);
+        void buscar_Automovil_Usuario(string tipo, string marca, string modelo, string color, string serie);
+        void buscar_Automoviles_Usuario(string tipo, string marca, string modelo);
 };
 
 void Autodistribuidora::autos_registrados() {
@@ -74,6 +77,13 @@ void Autodistribuidora::buscar_Automovil(string tipo, string marca, string model
 void Autodistribuidora::buscar_Automoviles(string tipo, string marca, string modelo) {
     for (int i = 0; i < vehiculos; i++) {
       if ((autos[i] -> get_Tipo() == tipo) & (autos[i] -> get_Marca() == marca) & (autos[i] -> get_Modelo() == modelo))
+        cout << autos[i] -> imprime_automoviles();
+    }
+}
+
+void Autodistribuidora::buscar_Automovil_Usuario(string tipo, string marca, string modelo, string color, string serie) {
+    for (int i = 0; i < vehiculos; i++) {
+      if ((autos[i] -> get_Tipo() == tipo) & (autos[i] -> get_Marca() == marca) & (autos[i] -> get_Modelo() == modelo) & (autos[i] -> get_Color() == color) & (autos[i] -> get_Serie() == serie))
         cout << autos[i] -> imprime_automoviles();
     }
 }
