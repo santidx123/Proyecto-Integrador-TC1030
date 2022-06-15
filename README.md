@@ -11,9 +11,13 @@ Y con un menu el cual cuenta con todas las opciones necesarias para la empresa. 
 # Sugerencias para funciones del programa:
 
 -Funcion Buscar_Automovil_Usuario: 
+
   Para tipo Carro: Modelo(Dodge), Marca(Attitude), Color(negro), Serie(delujo).
+  
   Para tipo Camioneta: Modelo(Dodge), Marca(Caravan), Color(negro), Serie(estandar).
 
 -Funcion Buscar_Automoviles_Usuario:
+
   Para tipo Carro: Modelo(Fiat), Marca(Movil).
+  
   Para tipo Camioneta: Modelo(JEEP), Marca(Wrangler).
